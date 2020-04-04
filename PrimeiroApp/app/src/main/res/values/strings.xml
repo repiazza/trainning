@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Primeiro Aplicativo</string>
+    <string name="window_name">Janela de detalhes</string>
+</resources>
