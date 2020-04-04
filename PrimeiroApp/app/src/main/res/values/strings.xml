@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Primeiro Aplicativo</string>
     <string name="window_name">Janela de detalhes</string>
+    <string name="translate">Traduzir</string>
 </resources>
