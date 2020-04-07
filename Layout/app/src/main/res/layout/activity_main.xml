@@ -10,10 +10,10 @@
     <Button
         android:id="@+id/btnAcessar"
         android:layout_width="0dp"
-        android:layout_height="39dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:backgroundTint="#81BD42"
-        android:text="Button"
+        android:text="ACCESSAR"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="@+id/edtPassword"
         app:layout_constraintStart_toStartOf="@+id/edtPassword"
@@ -60,10 +60,20 @@
         android:id="@+id/txvRecuperar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:text="Esqueceu sua senha? Clique aqui."
-        app:layout_constraintEnd_toEndOf="@+id/btnAcessar"
-        app:layout_constraintStart_toStartOf="@+id/btnAcessar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAcessar" />
+
+    <TextView
+        android:id="@+id/txvCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Nao possui conta? Cadastrar. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvRecuperar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
