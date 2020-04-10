@@ -17,7 +17,7 @@
         app:srcCompat="@android:mipmap/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txvNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -40,10 +40,10 @@
         android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/txvNome" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txvPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -53,7 +53,7 @@
         android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/txvEmail" />
 
     <Button
         android:id="@+id/btnSair"
@@ -67,7 +67,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/txvPhone" />
 
     <Button
         android:id="@+id/btnExcluir"

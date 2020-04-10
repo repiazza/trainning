@@ -9,11 +9,12 @@
     <ImageView
         android:id="@+id/imgLogo2"
         android:layout_width="223dp"
-        android:layout_height="171dp"
+        android:layout_height="0dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/txvDevelopedby"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,16 +22,16 @@
         app:srcCompat="@android:mipmap/sym_def_app_icon" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txvDevelopedby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Desenvolvido por"
         android:textColor="@android:color/black"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/txvDevelopedByName"
         tools:layout_editor_absoluteX="149dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txvDevelopedByName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
