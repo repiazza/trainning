@@ -1,0 +1,2 @@
+rootProject.name='ToastAlertSnackbar'
+include ':app'

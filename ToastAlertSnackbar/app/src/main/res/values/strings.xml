@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToastAlertSnackbar</string>
+    <string name="toast_text">Isso eh um Toast!</string>
+    <string name="alert_text">AlertDialog</string>
+    <string name="alert_message">Mensagem de Alerta!</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancelar</string>
+    <string name="alert_nok">NAO OK!</string>
+    <string name="snack_text">Essa eh uma Snackbar</string>
+    <string name="snack_action">Ação</string>
+</resources>
