@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("ShowToast")
     private void showToast(){
         // Toast
-        Toast.makeText(MainActivity.this, R.string.toast_text, Toast.LENGTH_LONG);
+        Toast.makeText(MainActivity.this, R.string.toast_text, Toast.LENGTH_LONG).show();
     }
     private void showAlert(){
 

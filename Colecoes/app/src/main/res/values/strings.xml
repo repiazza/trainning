@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Colecoes</string>
+
+    <string-array name="times">
+        <item>Sao Paulo</item>
+        <item>Palmeiras</item>
+        <item>Corinthians</item>
+        <item>Santos</item>
+        <item>Flamengo</item>
+    </string-array>
 </resources>
